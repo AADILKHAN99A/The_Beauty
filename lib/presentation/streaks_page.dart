@@ -44,6 +44,9 @@ class _StreaksPageState extends State<StreaksPage> {
 
     double overallPercentage =
         (totalCompletedSteps / (totalDays * totalExpectedSteps)) * 100;
+    if (overallPercentage.isNaN) {
+      overallPercentage = 0;
+    }
     return overallPercentage;
   }
 

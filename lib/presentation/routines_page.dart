@@ -163,7 +163,6 @@ class _RoutinePageState extends State<RoutinePage> {
   @override
   void initState() {
     fetchTodayList();
-
     super.initState();
   }
 

@@ -3,6 +3,7 @@ enum TextSizes { small, medium, large }
 enum OrderStatus { processing, shipped, delivered }
 
 enum ImageSourceType { camera, gallery }
+enum ConnectionType { Mobile, Wifi }
 
 enum PaymentMethods {
   paypal,
